@@ -9,7 +9,7 @@ ok      simplesuite     0.003s [no tests to run]
 ```
 
 When you open the terminal and run:
-`go test -timeout 30s -run ^TestExampleTestSuite$ -testify.m ^(TestList)$ simplesuite`
+`go test -timeout 30s -run ^TestExampleTestSuite$ -testify.m ^TestList$ ./example_test.go`
 you're gonna get this result:
 
 ```
